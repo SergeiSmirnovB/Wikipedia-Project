@@ -1,0 +1,468 @@
+{
+  "id": "cf38f1af-68fe-495f-b945-d50d67b2baec",
+  "version": "2.0",
+  "name": "Wikipedia",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "c9567542-7474-404c-8e2a-02d1fce90e36",
+    "name": "Language Change TS - 001",
+    "commands": [{
+      "id": "f1cd7f05-b607-4801-abc5-cc9b34474707",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d1a9568-7bac-4a6b-8029-433f6f06bcce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1042x659",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22cc0f77-ed81-45f1-a5f9-6b53eecf857a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-link-box-en > strong",
+      "targets": [
+        ["css=#js-link-box-en > strong", "css:finder"],
+        ["xpath=//a[@id='js-link-box-en']/strong", "xpath:idRelative"],
+        ["xpath=//div[2]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8cbc6d5-4e8d-4a7a-9f5d-aaa565f8987d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.interwiki-es span",
+      "targets": [
+        ["css=.interwiki-es span", "css:finder"],
+        ["xpath=//nav[@id='p-lang']/div/ul/li[11]/a/span", "xpath:idRelative"],
+        ["xpath=//nav[6]/div/ul/li[11]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4d506c1-6220-4005-8501-265b1af1c322",
+      "comment": "",
+      "command": "click",
+      "target": "css=.interwiki-zh font > font",
+      "targets": [
+        ["css=.interwiki-zh font > font", "css:finder"],
+        ["xpath=//nav[@id='p-lang']/div/ul/li[62]/a/span/font/font", "xpath:idRelative"],
+        ["xpath=//li[62]/a/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02c6de2f-370a-46f9-b036-1b61a3be711b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,123)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d47b1a6d-46bc-4c2f-83f5-bfc4d15d990d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.interwiki-it span",
+      "targets": [
+        ["css=.interwiki-it span", "css:finder"],
+        ["xpath=//nav[@id='p-lang']/div/ul/li[27]/a/span", "xpath:idRelative"],
+        ["xpath=//li[27]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Italiano')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b80b3b82-a6af-4731-9177-553dacc6eac7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.interwiki-fr span",
+      "targets": [
+        ["css=.interwiki-fr span", "css:finder"],
+        ["xpath=//nav[@id='p-lang']/div/ul/li[25]/a/span", "xpath:idRelative"],
+        ["xpath=//li[25]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Français')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98a9df49-3360-4bc2-91ea-d943954a1a4d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "99e88dda-7a28-4166-a335-27d8f0447d17",
+    "name": "Authorization TS - 002",
+    "commands": [{
+      "id": "5a44ba55-4924-482b-a87e-6159e34738a7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ce39a3b-392b-43bf-87eb-6a97e1f6f8ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1104x555",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "339c0a95-8731-4371-b51f-17fdc7733f06",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-link-box-en > strong",
+      "targets": [
+        ["css=#js-link-box-en > strong", "css:finder"],
+        ["xpath=//a[@id='js-link-box-en']/strong", "xpath:idRelative"],
+        ["xpath=//div[2]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "578058d5-8b04-49c7-b42d-533129523ca8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#pt-login span",
+      "targets": [
+        ["css=#pt-login span", "css:finder"],
+        ["xpath=//li[@id='pt-login']/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22a323b2-ddc5-41dd-8137-69321e504a3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mediawiki",
+      "targets": [
+        ["css=.mediawiki", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81518c5d-b2bc-4c61-a71f-8379756955c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpName1",
+      "targets": [
+        ["id=wpName1", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName1", "css:finder"],
+        ["xpath=//input[@id='wpName1']", "xpath:attributes"],
+        ["xpath=//div[@id='userloginForm']/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "SergeiHZ"
+    }, {
+      "id": "84ce39cb-73d0-4e83-9c35-b24fd9c01c7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-htmlform > div",
+      "targets": [
+        ["css=.mw-htmlform > div", "css:finder"],
+        ["xpath=//div[@id='userloginForm']/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d341ff63-77ba-4a14-8cec-44b1e862da87",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpPassword1",
+      "targets": [
+        ["id=wpPassword1", "id"],
+        ["name=wpPassword", "name"],
+        ["css=#wpPassword1", "css:finder"],
+        ["xpath=//input[@id='wpPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='userloginForm']/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f82c05f1-8f77-4196-921a-6e3c37434603",
+      "comment": "",
+      "command": "type",
+      "target": "id=wpPassword1",
+      "targets": [
+        ["id=wpPassword1", "id"],
+        ["name=wpPassword", "name"],
+        ["css=#wpPassword1", "css:finder"],
+        ["xpath=//input[@id='wpPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='userloginForm']/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Resident1+"
+    }, {
+      "id": "88c59c5c-552e-4cc7-b961-858f48879738",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpLoginAttempt",
+      "targets": [
+        ["id=wpLoginAttempt", "id"],
+        ["name=wploginattempt", "name"],
+        ["css=#wpLoginAttempt", "css:finder"],
+        ["xpath=//button[@id='wpLoginAttempt']", "xpath:attributes"],
+        ["xpath=//div[@id='userloginForm']/form/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "876435d1-0906-48ba-9323-a00fdb3f9af1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3c93ddbc-950e-4118-811d-1ed9c830c606",
+    "name": "Help Section TS - 003",
+    "commands": [{
+      "id": "6b0eddb5-23d7-4dc1-9c23-d4204e4988e4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b56e7db9-f0a9-4ae4-b0ff-c37ed59d9e7a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d76734b2-e3b3-45a5-92aa-58de9b1a0c61",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-link-box-en > strong",
+      "targets": [
+        ["css=#js-link-box-en > strong", "css:finder"],
+        ["xpath=//a[@id='js-link-box-en']/strong", "xpath:idRelative"],
+        ["xpath=//div[2]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab60b05c-f3d7-4ef4-87cc-7884ac5e3692",
+      "comment": "",
+      "command": "click",
+      "target": "css=#n-help span",
+      "targets": [
+        ["css=#n-help span", "css:finder"],
+        ["xpath=//li[@id='n-help']/a/span", "xpath:idRelative"],
+        ["xpath=//nav[2]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Help')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "254341fc-293d-4b58-962e-15c4843991f2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "aca9e3da-3c40-428e-879f-1429f03a26a9",
+    "name": "Search TS - 004",
+    "commands": [{
+      "id": "f3033a55-b8c8-4229-bba4-966a1bb2f68a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4756bd95-de04-4ebd-9705-f9df04783c83",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1404x645",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "780dec7b-6e8f-4f1e-a137-49339df85a0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-link-box-en > strong",
+      "targets": [
+        ["css=#js-link-box-en > strong", "css:finder"],
+        ["xpath=//a[@id='js-link-box-en']/strong", "xpath:idRelative"],
+        ["xpath=//div[2]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6b4501e-7796-4ca1-9361-a4fd3a4b4424",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2163a4f0-5367-4aad-945b-8dd6c87fb095",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "PERSONAL COMPUTER"
+    }, {
+      "id": "7788a749-e3a0-455a-9035-a235c38d9629",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchButton",
+      "targets": [
+        ["id=searchButton", "id"],
+        ["name=go", "name"],
+        ["css=#searchButton", "css:finder"],
+        ["xpath=//input[@id='searchButton']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceef59a8-bc28-4502-82cb-627e31c9e2be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thumb:nth-child(4) .thumbimage",
+      "targets": [
+        ["css=.thumb:nth-child(4) .thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "954b0195-948b-4b94-b59a-006903d75a6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-close",
+      "targets": [
+        ["css=.mw-mmv-close", "css:finder"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "475e21cc-cfaf-4fe6-9726-6070a97554d1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e8fcdc7b-0790-46ea-b372-20ed4d785f61",
+    "name": "Other projects TS - 005",
+    "commands": [{
+      "id": "09513964-ad8a-451b-87f3-275c61cf7a08",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "367e3a9f-d534-4721-aec0-78045a7be0d7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1421x890",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f20c8b7-e6c3-41f6-ba26-d4950012d2c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-link-box-en > strong",
+      "targets": [
+        ["css=#js-link-box-en > strong", "css:finder"],
+        ["xpath=//a[@id='js-link-box-en']/strong", "xpath:idRelative"],
+        ["xpath=//div[2]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "675ab3f6-ba58-476d-9d91-ba04faa578bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wb-otherproject-mediawiki span",
+      "targets": [
+        ["css=.wb-otherproject-mediawiki span", "css:finder"],
+        ["xpath=//nav[@id='p-wikibase-otherprojects']/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav[5]/div/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99c3bd2d-5b76-44e4-a7d0-e5c6276d8b95",
+      "comment": "",
+      "command": "click",
+      "target": "id=mw-sidebar-button",
+      "targets": [
+        ["id=mw-sidebar-button", "id"],
+        ["css=#mw-sidebar-button", "css:finder"],
+        ["xpath=//label[@id='mw-sidebar-button']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Toggle sidebar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba70591c-e20e-42d3-a938-580d2847e3d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wb-otherproject-wikinews span",
+      "targets": [
+        ["css=.wb-otherproject-wikinews span", "css:finder"],
+        ["xpath=//div[@id='p-wikibase-otherprojects']/div/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/ul/li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Wikinews')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed005bdf-638c-4c83-94f5-040cafda7a50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wb-otherproject-commons span",
+      "targets": [
+        ["css=.wb-otherproject-commons span", "css:finder"],
+        ["xpath=//nav[@id='p-wikibase-otherprojects']/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav[6]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Wikimedia Commons')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96fea7cb-d48b-43ca-b77f-5484fc509674",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1c8835a7-40d6-49fc-962b-75799898fb63",
+    "name": "Positive Testing",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c9567542-7474-404c-8e2a-02d1fce90e36"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}
