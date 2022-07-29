@@ -1,0 +1,215 @@
+{
+	"info": {
+		"_postman_id": "7447d000-4e28-42a7-ae01-4ea5830cf8be",
+		"name": "Wikipedia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21559465"
+	},
+	"item": [
+		{
+			"name": "Get a pageview count timeseries of en.wikipedia's article Albert Einstein for the month of October 2015:",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"items\": [\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015100100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 18860\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015100200\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 20816\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015100300\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 16009\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015100400\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 19494\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015100500\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 21198\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015100600\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 22515\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015100700\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 22269\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015100800\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 20835\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015100900\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 18319\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101000\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 17088\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 18522\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101200\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 20251\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101300\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 20765\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101400\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 21677\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101500\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 20694\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101600\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 18597\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101700\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 19252\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101800\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 19257\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101900\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 22160\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102000\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 22280\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 23067\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102200\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 22469\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102300\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 19218\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102400\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 17942\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102500\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 20262\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102600\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 22290\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102700\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 23170\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102800\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 23288\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102900\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 24300\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015103000\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 20720\r\n        },\r\n        {\r\n            \"project\": \"en.wikipedia\",\r\n            \"article\": \"Albert_Einstein\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015103100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 16380\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Albert_Einstein/daily/2015100100/2015103100",
+					"protocol": "https",
+					"host": [
+						"wikimedia",
+						"org"
+					],
+					"path": [
+						"api",
+						"rest_v1",
+						"metrics",
+						"pageviews",
+						"per-article",
+						"en.wikipedia",
+						"all-access",
+						"all-agents",
+						"Albert_Einstein",
+						"daily",
+						"2015100100",
+						"2015103100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a pageview count timeseries of de.wikipedia's article Johann Wolfgang von Goethe from October 13th 2015 to October 27th 2015",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"items\": [\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101300\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 2934\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101400\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 3104\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101500\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 2938\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101600\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 2420\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101700\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 2305\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101800\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 2739\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015101900\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 3344\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102000\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 3068\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 3048\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102200\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 2973\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102300\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 2315\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102400\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 2372\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102500\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 3180\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102600\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 2992\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Johann_Wolfgang_von_Goethe\",\r\n            \"granularity\": \"daily\",\r\n            \"timestamp\": \"2015102700\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"user\",\r\n            \"views\": 2890\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia/all-access/user/Johann_Wolfgang_von_Goethe/daily/2015101300/2015102700",
+					"protocol": "https",
+					"host": [
+						"wikimedia",
+						"org"
+					],
+					"path": [
+						"api",
+						"rest_v1",
+						"metrics",
+						"pageviews",
+						"per-article",
+						"de.wikipedia",
+						"all-access",
+						"user",
+						"Johann_Wolfgang_von_Goethe",
+						"daily",
+						"2015101300",
+						"2015102700"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a monthly pageview count de.wikipedia's article Barack_Obama for the year 2016",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"items\": [\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Barack_Obama\",\r\n            \"granularity\": \"monthly\",\r\n            \"timestamp\": \"2016010100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 112458\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Barack_Obama\",\r\n            \"granularity\": \"monthly\",\r\n            \"timestamp\": \"2016020100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 114036\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Barack_Obama\",\r\n            \"granularity\": \"monthly\",\r\n            \"timestamp\": \"2016030100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 134238\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Barack_Obama\",\r\n            \"granularity\": \"monthly\",\r\n            \"timestamp\": \"2016040100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 127099\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Barack_Obama\",\r\n            \"granularity\": \"monthly\",\r\n            \"timestamp\": \"2016050100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 96700\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Barack_Obama\",\r\n            \"granularity\": \"monthly\",\r\n            \"timestamp\": \"2016060100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 76502\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Barack_Obama\",\r\n            \"granularity\": \"monthly\",\r\n            \"timestamp\": \"2016070100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 85732\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Barack_Obama\",\r\n            \"granularity\": \"monthly\",\r\n            \"timestamp\": \"2016080100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 75056\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Barack_Obama\",\r\n            \"granularity\": \"monthly\",\r\n            \"timestamp\": \"2016090100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 87647\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Barack_Obama\",\r\n            \"granularity\": \"monthly\",\r\n            \"timestamp\": \"2016100100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 117706\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Barack_Obama\",\r\n            \"granularity\": \"monthly\",\r\n            \"timestamp\": \"2016110100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 438171\r\n        },\r\n        {\r\n            \"project\": \"de.wikipedia\",\r\n            \"article\": \"Barack_Obama\",\r\n            \"granularity\": \"monthly\",\r\n            \"timestamp\": \"2016120100\",\r\n            \"access\": \"all-access\",\r\n            \"agent\": \"all-agents\",\r\n            \"views\": 85157\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia/all-access/all-agents/Barack_Obama/monthly/2016010100/2016123100",
+					"protocol": "https",
+					"host": [
+						"wikimedia",
+						"org"
+					],
+					"path": [
+						"api",
+						"rest_v1",
+						"metrics",
+						"pageviews",
+						"per-article",
+						"de.wikipedia",
+						"all-access",
+						"all-agents",
+						"Barack_Obama",
+						"monthly",
+						"2016010100",
+						"2016123100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top 1000 most visited articles from en.wikisource for all days in October, 2021",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikisource/all-access/2021/10/all-days",
+					"protocol": "https",
+					"host": [
+						"wikimedia",
+						"org"
+					],
+					"path": [
+						"api",
+						"rest_v1",
+						"metrics",
+						"pageviews",
+						"top",
+						"en.wikisource",
+						"all-access",
+						"2021",
+						"10",
+						"all-days"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top countries that visited any wikipedia in November 2017 from any access",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wikimedia.org/api/rest_v1/metrics/pageviews/top-by-country/all-projects/all-access/2017/11",
+					"protocol": "https",
+					"host": [
+						"wikimedia",
+						"org"
+					],
+					"path": [
+						"api",
+						"rest_v1",
+						"metrics",
+						"pageviews",
+						"top-by-country",
+						"all-projects",
+						"all-access",
+						"2017",
+						"11"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
